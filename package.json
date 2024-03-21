@@ -1,0 +1,47 @@
+{
+  "name": "utmollitia",
+  "version": "1.0.0",
+  "description": "Type checking for .eslintrc.json",
+  "license": "MIT",
+  "author": "BradlyOrn",
+  "homepage": "https://github.com/AshaGutmann/utmollitia.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AshaGutmann/utmollitia.git"
+  },
+  "keywords": [
+    "similique",
+    "eslintrc",
+    "config",
+    "json",
+    "sequi",
+    "type",
+    "iusto",
+    "guard",
+    "guards",
+    "ts",
+    "quasi",
+    "voluptatem",
+    "modi",
+    ".eslintrc.json",
+    "eslintrc.json"
+  ],
+  "files": [
+    "build"
+  ],
+  "main": "./build/index.js",
+  "scripts": {
+    "build": "bob build",
+    "postversion": "git push",
+    "prepublishOnly": "yarn run build"
+  },
+  "dependencies": {
+    "types-json": "^1.2.0"
+  },
+  "devDependencies": {
+    "@bconnorwhite/bob": "^2.2.1"
+  },
+  "bugs": {
+    "url": "https://github.com/AshaGutmann/utmollitia.git/issues"
+  }
+}
